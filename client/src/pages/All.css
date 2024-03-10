@@ -1,0 +1,345 @@
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    /* background-color:black; */
+
+
+}
+section
+{
+    width: 100%;
+    padding: 10px;
+    /* background-color: #020024; */
+
+    
+}
+
+section .form_group{
+    
+    margin: 100px auto;
+    padding: 20px 15px;
+    max-width: 520px;
+    box-shadow: 0 0 15px -10px #464d58;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_group h1{
+    font-size: 44px;
+    color: #3dd62f;
+}
+
+.form_group p{
+    color: #718096;
+    font-size: 15px;
+    margin-top:9px;
+}
+.form_group form{
+    margin-top: 45px;
+    width: 100%;
+    padding: 10px 50px;
+}
+.enter_in_form input{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d4d0d0;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 14px;
+    margin-top: 9px;
+    font-size: 14px;
+    
+}
+.enter_in_form input{
+    border:1.5px;
+    border-color: #3dd62f;
+    border-style: solid;
+    
+}
+.enter_in_form label{
+    font-weight: 600;
+    /* display: flex; */
+    /* flex-direction: column;   */
+    /* align-items: center; */
+    font-size: 15px;
+}
+form .btn{
+    /* display:flex; */
+
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:#3dd62f;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    /* flex-direction: column; */
+    text-align: center;
+
+    
+    
+}
+form .btn:hover{
+    background-color: #0ebd25;
+}
+form .txt{
+
+    text-align: center;
+   
+}
+.enter_in_form .pass-show{
+    display:flex;
+    /* align-items:center;   */
+    position: relative;
+    
+}
+.enter_in_form input::placeholder{
+    color: #a1a6aa;
+    font-size: 15px;
+    letter-spacing: normal;
+}
+.enter_in_form .showpss{
+    right: 0;
+    padding: 7px 10px;
+    top:3px;
+    margin-right: 5px;
+    margin-top: 12px;
+    position: absolute;
+    cursor: pointer;
+    background-color: #EDF2F7;
+   font-size: 14px;
+    border-radius: 4px;
+
+
+}
+.enter_in_form .showpss:hover{
+    background-color:  #c4d7eb;
+}
+
+/*dashboard */
+
+
+  
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  
+  .main-info {
+    text-align: center;
+    color: white; /* Set the text color to white or any desired color */
+  }
+  
+  /* Additional styling for the text if needed */
+  .main-info h1 {
+    font-size: 2rem; /* Adjust the font size as needed */
+  }
+  
+  .main-info h6 {
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+
+  /* logout and profile */
+  .anchor {
+    position: fixed;
+    top: 1rem;
+    right: 3rem;
+    display: flex;
+    gap: 10px;
+
+    z-index: 10000;
+  }
+  
+  .anchor a {
+    color: white; /* Set the text color to white or any desired color */
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    /* word-spacing: 1rem; */
+        text-indent:1.5rem;
+      
+  }
+  .anchor a:hover {
+    color: lightblue; 
+  }
+  /*logout,profile button*/
+  .anchor2 {
+    position: fixed;
+    top: 1rem;
+    right: 13rem;
+    display: flex;
+    gap: 10px;
+
+    z-index: 10000;
+  }
+  
+  .anchor2 a {
+    color: white; /* Set the text color to white or any desired color */
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    /* word-spacing: 1rem; */
+        text-indent:1.5rem;
+      
+  }
+  .anchor2 a:hover {
+    color: lightblue; /* Change the color on hover */
+  }
+  /*buttons of update profile*/
+  .anchor3{
+    display:flex;
+    padding:2rem;
+    
+  }
+  .anchor3 button{
+    padding: 3px;
+    cursor: pointer;
+    /* border:2px solid grey; */
+    border-radius:4px;
+    background-color:#50a9e5;
+   
+    
+  }
+ 
+
+.btn3 {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn3:hover {
+  background-color: #2980b9;
+}
+
+.btn3.cancel {
+  background-color: #e74c3c;
+}
+
+.btn3.update {
+  background-color: #2ecc71;
+}
+
+.anchor3 {
+  text-align: center;
+}
+
+/* Neon effect */
+.btn3::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #00fff6, #e4ff00, #00fff6, #e4ff00);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn3:hover::before {
+  opacity: 1;
+}
+
+  /*input of update profile*/
+  .header_form input{
+    /* display : flex; */
+    flex-direction: row;
+   
+   
+  }
+  .form_group2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #020024, #090979, #00d4ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__group_field input::placeholder{
+  color: #b9aaaa;
+  font-size: 15px;
+  letter-spacing: normal;
+
+}
+
+.form__group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .form__field {
+    font-size: 1rem;
+    padding: 10px;
+    /* display: block; */
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Underline style */
+    background-color: transparent;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+  }
+  
+  .form__field:focus {
+    outline: none;
+    border-bottom: 2px solid #007bff; /* Updated underline style on focus */
+  }
+  
+  
+
+
+  
+
+  
+  
+  

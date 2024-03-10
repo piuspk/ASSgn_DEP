@@ -1,0 +1,5 @@
+Our goal is to make this tool as useful as possible. 
+
+tc5MImswn0RtW7HO
+ragnar
+mongodb+srv://ragnar:tc5MImswn0RtW7HO@ragnar-pk.1nenauv.mongodb.net/?retryWrites=true&w=majority

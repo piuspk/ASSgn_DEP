@@ -1,0 +1,10 @@
+<div className="background-overlay"></div>
+      
+      <div className="main-info">
+        <h1>Welcome to Your Dashboard</h1> 
+        <h6>Get ready for an incredible experience!</h6>
+        
+        <br/>
+        
+      </div>
+    </div>
